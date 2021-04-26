@@ -23,4 +23,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Analytics'
   s.dependency 'Mixpanel', '~> 3.5'
+  s.static_framework = true
+
 end
